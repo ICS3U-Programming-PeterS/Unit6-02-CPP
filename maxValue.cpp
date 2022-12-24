@@ -43,7 +43,7 @@ int main() {
 
     // User interface
     std::cout << "This program generates 10 random numbers "
-    << "from 0 - 100 then displays the largest one using arrays";
+    << "from 0 - 100 then displays the largest one using arrays" << std::endl;
 
     // Generates 10 random numbers and adds them to an array
     for (int counter = 0; counter < MAX_ARRAY_SIZE; counter++) {
